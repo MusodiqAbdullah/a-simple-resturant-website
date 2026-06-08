@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(240, 59, 155);
+    color:  #af1c59; ;
+    line-height: 1.6;
+}
+
+
+.logo {
+    height: 5%;
+    width: 10%;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    display: flex;
+    background-color: #f1a6df;
+    color: red;
+    width: 100%;
+    
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    margin: auto;
+    width: 60%;
+}
+
+.navbar :hover{
+    cursor: pointer;
+    color: brown;
+}
+
+p{
+    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+}
+
+.hero{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(assets/image-waffle-desktop.jpg);
+    height: 100vh;
+    display: flex;
+}
+
+.hero-text h1{
+      font-size: 3rem;
+      margin-bottom: 2rem;
+}
+
+.hero-text p{
+    font-size: 1.5;
+    margin-bottom: 3rem;
+}
+
+.btn{
+  color: red;
+  background-color: rgb(240, 59, 155);
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius:5px ;
+}
+
+.btn :hover{
+    color: brown;
+    background-color: yellow;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+br{
+    margin-bottom: 5rem;
+}
+
+.menu{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+form{
+     align-items: center;
+    justify-content: center;
+    text-align: center
+    text
+}
+input{
+    margin: 0.25rem;
+    padding: 0.2rem;
+    border: 2rem;
+}
+button{
+    color: red;
+  background-color: green;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius:5px ;
+}
+
+footer{
+    background-color:  rgb(240, 59, 155);;
+    margin-top: 6rem;
+}
+
+.footerwrap{
+    display: flex;
+    margin: auto;
+    width: 85%;
+}
+
+.footerleft{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 60%;
+}
+
+.Company{
+    margin-top: 2rem;
+}
+
+.Company h3{
+    font-family: Fustat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45.44px;
+    color: #F3B855;
+}
+    
+.Company h4{
+    font-family: Fustat;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 45.44px;
+    color: #FFFFFF;
+}
+
+.socials{
+  margin: auto;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.enquiries{
+    color: blue;
+}
+.facebook{
+    color: blue;
+}
+
+.linkedin{
+    color: blue;
+}
+
+.twitter{
+    color: blue;
+}
